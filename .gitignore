@@ -1,0 +1,27 @@
+﻿# Virtual environments
+myenv/
+.venv/
+venv/
+__pycache__/
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.whl
+# Data, models and outputs
+*.pt
+*.pth
+yolov8n.pt
+frames/
+processed_frames/
+VOC2012/
+# OS
+.DS_Store
+Thumbs.db
+# logs
+*.log
+# IDE
+.vscode/
+# Large video downloads
+*.mp4
+*.part
